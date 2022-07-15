@@ -12,7 +12,7 @@ btn.addEventListener("click", function(){
     for (let index = 0; index < 6; index++) {
         hexColor += hex[getRandomNumber()];
     }
-    color.textContent = hexColor;
+    color.textContent = hexColor; // Altera o valor que será exibido no campo de texto em color
     document.body.style.backgroundColor = hexColor;
 });
 
